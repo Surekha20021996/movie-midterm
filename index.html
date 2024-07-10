@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUKHFLIX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SUKHFLIX</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div id="banner" class="banner">
+        <div class="banner-content">
+            <h1>Loading...</h1>
+            <p>Please wait while we fetch the banner movie...</p>
+        </div>
+    </div>
+
+    <section class="movies">
+        <h2>Popular Movies</h2>
+        <div id="popular-movies" class="movie-grid"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Top Rated Movies</h2>
+        <div id="top-rated-movies" class="movie-grid"></div>
+    </section>
+
+    <section class="movies">
+        <h2>Upcoming Movies</h2>
+        <div id="upcoming-movies" class="movie-grid"></div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
